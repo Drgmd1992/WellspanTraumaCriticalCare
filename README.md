@@ -1,2 +1,0 @@
-# WellspanTraumaCriticalCare
-App repository 
