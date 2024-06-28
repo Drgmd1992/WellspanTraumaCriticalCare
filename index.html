@@ -41,7 +41,7 @@
     }
     .wellspan-logo {
         font-family: 'Times New Roman', Times, serif; /* Similar serif font */
-        font-size: 26px;
+        font-size: 24px;
         color: #003366; /* Dark blue color */
     }
     .wellspan-logo .large {
@@ -57,7 +57,7 @@
         padding: 10px 15px; /* Reduced padding */
         margin: 10px;
         border-radius: 8px;
-        font-size: 16px; /* Reduced font size */
+        font-size: 14px; /* Reduced font size */
         cursor: pointer;
         width: 80%; /* Full width button */
     }
@@ -71,7 +71,7 @@
         padding: 8px 12px;
         border-radius: 8px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 14px;
         width: 80%;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -143,95 +143,95 @@
         <button onclick="showSection('handbook')">Handbook</button>
     </div>
     <div id="clinical-guidelines" class="section">
-        <button class="home-button" onclick="showSection('main-buttons')" aria-label="Back to Home">Home</button>
+        <button class="home-button" onclick="showSection('main-buttons'); vibrate();">Home</button>
         <h2>Clinical Guidelines</h2>
-        <button onclick="showPDF('https://drive.google.com/file/d/1NHE6jFgCfam03eh8gou2rI3Skj31qSf0/preview')" aria-label="Show Anticoag Reversal PDF">Anticoag Reversal</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1fJJfJL9_wX6nBsn9HU-Lu4Py9C78nMEQ/preview')" aria-label="Show Blunt Spleen Injury PDF">Blunt Spleen Injury</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1roxk1QtuQM9O7KRjRsGI2DpEGJevjCnD/preview')" aria-label="Show Burn PDF">Burn</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1GeioLnUgwRxOPtk0lcNd0AI0d_ASXXL0/preview')" aria-label="Show Cervical Vascular Imaging PDF">Cervical Vascular Imaging</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1Xxg-iWMgpgpnIcCkBkuOw9rzXVwNh5X4/preview')" aria-label="Show Cervical Spine Clearance PDF">Cervical Spine Clearance</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1lQvvJC7NDifrdtfJZ5aTlHS7_DekZHYr/preview')" aria-label="Show Enteral Nutrition PDF">Enteral Nutrition</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1pq_j0BLjUybw67eT_bbBlU4HWGVrHYt4/preview')" aria-label="Show Geriatric Trauma PDF">Geriatric Trauma</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1a3wEhi7De8liRpvhJ7HJCzNHalqI_mzm/preview')" aria-label="Show Modified Trauma PDF">Modified Trauma</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/12cgtLQtRJEAyyyiN79LGTYGOGYIOnWNV/preview')" aria-label="Show Non-Emergent Procedures PDF">Non-Emergent Procedures</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1YMkA30yqc0MnrUCkBCdrjGDqZhdJcNG3/preview')" aria-label="Show Obstetric Trauma PDF">Obstetric Trauma</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/15nXwB7A5Rc_Dny3g7OrcDi0awrZmwySm/preview')" aria-label="Show Orthopedic Open Fracture PDF">Orthopedic Open Fracture</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1XRu8QynoHtuBZFEZ27uzxYaL4GEuS_R5/preview')" aria-label="Show Pelvis Fracture PDF">Pelvis Fracture</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1HXxSeAGUEHFGnUlBYms9X2_HGeWsnyj_/preview')" aria-label="Show Retained Hemothorax PDF">Retained Hemothorax</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1EwbLBS1YoytQaH_Ui8Sj_OLjQ3uFgG69/preview')" aria-label="Show Severe TBI PDF">Severe TBI</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/19KB26KlU6sLv0Y4N1b8s_fHfS5rGo4qB/preview')" aria-label="Show Mild Head Injury PDF">Mild Head Injury</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1SRR4eTSJcPOfrWYbLppLkCuImHh8KABd/preview')" aria-label="Show Post-Splenectomy Vaccines PDF">Post-Splenectomy Vaccines</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1dooAKyOMjonc5gpJD8YFQwsDlPMbKqfu/preview')" aria-label="Show Trauma Chest Wall PDF">Trauma Chest Wall</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/15A_Ra5BLL5vAWioW1zgFXvsvWisGJMod/preview')" aria-label="Show Trauma Resuscitation PDF">Trauma Resuscitation</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1xCFw66ebMlMHPZ_Kn0mdbUsqtvKDZY2B/preview')" aria-label="Show REBOA PDF">REBOA</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1fOdtOpji_NPILaXnZg2lC4mi4Tuht-1n/preview')" aria-label="Show Thoracic and Lumbar Spine PDF">Thoracic and Lumbar Spine</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1dzlXfIhhXMMEINWjezF8Saj9czph1PYz/preview')" aria-label="Show Transfer PDF">Transfer</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1F93mkIelsXq5-EoR17q2NeX9AIzBo74E/preview')" aria-label="Show Isolated Fractures PDF">Isolated Fractures</button>
-        <button class="home-button" onclick="showSection('main-buttons')" aria-label="Back to Home">Home</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1NHE6jFgCfam03eh8gou2rI3Skj31qSf0/preview'); vibrate();" aria-label="Show Anticoag Reversal PDF">Anticoag Reversal</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1fJJfJL9_wX6nBsn9HU-Lu4Py9C78nMEQ/preview'); vibrate();" aria-label="Show Blunt Spleen Injury PDF">Blunt Spleen Injury</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1roxk1QtuQM9O7KRjRsGI2DpEGJevjCnD/preview'); vibrate();" aria-label="Show Burn PDF">Burn</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1GeioLnUgwRxOPtk0lcNd0AI0d_ASXXL0/preview'); vibrate();" aria-label="Show Cervical Vascular Imaging PDF">Cervical Vascular Imaging</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1Xxg-iWMgpgpnIcCkBkuOw9rzXVwNh5X4/preview'); vibrate();" aria-label="Show Cervical Spine Clearance PDF">Cervical Spine Clearance</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1lQvvJC7NDifrdtfJZ5aTlHS7_DekZHYr/preview'); vibrate();" aria-label="Show Enteral Nutrition PDF">Enteral Nutrition</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1pq_j0BLjUybw67eT_bbBlU4HWGVrHYt4/preview'); vibrate();" aria-label="Show Geriatric Trauma PDF">Geriatric Trauma</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1a3wEhi7De8liRpvhJ7HJCzNHalqI_mzm/preview'); vibrate();" aria-label="Show Modified Trauma PDF">Modified Trauma</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/12cgtLQtRJEAyyyiN79LGTYGOGYIOnWNV/preview'); vibrate();" aria-label="Show Non-Emergent Procedures PDF">Non-Emergent Procedures</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1YMkA30yqc0MnrUCkBCdrjGDqZhdJcNG3/preview'); vibrate();" aria-label="Show Obstetric Trauma PDF">Obstetric Trauma</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/15nXwB7A5Rc_Dny3g7OrcDi0awrZmwySm/preview'); vibrate();" aria-label="Show Orthopedic Open Fracture PDF">Orthopedic Open Fracture</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1XRu8QynoHtuBZFEZ27uzxYaL4GEuS_R5/preview'); vibrate();" aria-label="Show Pelvis Fracture PDF">Pelvis Fracture</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1HXxSeAGUEHFGnUlBYms9X2_HGeWsnyj_/preview'); vibrate();" aria-label="Show Retained Hemothorax PDF">Retained Hemothorax</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1EwbLBS1YoytQaH_Ui8Sj_OLjQ3uFgG69/preview'); vibrate();" aria-label="Show Severe TBI PDF">Severe TBI</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/19KB26KlU6sLv0Y4N1b8s_fHfS5rGo4qB/preview'); vibrate();" aria-label="Show Mild Head Injury PDF">Mild Head Injury</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1SRR4eTSJcPOfrWYbLppLkCuImHh8KABd/preview'); vibrate();" aria-label="Show Post-Splenectomy Vaccines PDF">Post-Splenectomy Vaccines</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1dooAKyOMjonc5gpJD8YFQwsDlPMbKqfu/preview'); vibrate();" aria-label="Show Trauma Chest Wall PDF">Trauma Chest Wall</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/15A_Ra5BLL5vAWioW1zgFXvsvWisGJMod/preview'); vibrate();" aria-label="Show Trauma Resuscitation PDF">Trauma Resuscitation</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1xCFw66ebMlMHPZ_Kn0mdbUsqtvKDZY2B/preview'); vibrate();" aria-label="Show REBOA PDF">REBOA</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1fOdtOpji_NPILaXnZg2lC4mi4Tuht-1n/preview'); vibrate();" aria-label="Show Thoracic and Lumbar Spine PDF">Thoracic and Lumbar Spine</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1dzlXfIhhXMMEINWjezF8Saj9czph1PYz/preview'); vibrate();" aria-label="Show Transfer PDF">Transfer</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1F93mkIelsXq5-EoR17q2NeX9AIzBo74E/preview'); vibrate();" aria-label="Show Isolated Fractures PDF">Isolated Fractures</button>
+        <button class="home-button" onclick="showSection('main-buttons'); vibrate();" aria-label="Back to Home">Home</button>
     </div>
     <div id="pdfViewer" class="pdf-container">
-        <button class="close-button" onclick="closePDF()">Close</button>
+        <button class="close-button" onclick="closePDF(); vibrate();">Close</button>
         <iframe src=""></iframe>
     </div>
     <div id="operational-guidelines" class="section">
-        <button class="home-button" onclick="showSection('main-buttons')" aria-label="Back to Home">Home</button>
+        <button class="home-button" onclick="showSection('main-buttons'); vibrate();" aria-label="Back to Home">Home</button>
         <h2>Operational Guidelines</h2>
-        <button onclick="showPDF('https://drive.google.com/file/d/1M_kbE61vW5NxPWy8-_LXh1jXu5mRVrXz/preview')" aria-label="Show Annual Trauma Staffing PDF">Annual Trauma Staffing</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1fvvKOiOb1PP7aU6HKt1HL4JQou9FkRvl/preview')" aria-label="Show CPIC Attendance PDF">CPIC Attendance</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1dqYPuhG96T34u4WsV3SNQxaFMnJIl6Y3/preview')" aria-label="Show Multidiscipline PRPI PDF">Multidiscipline PRPI</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/18icxugCbfF6rwaV8D9oydHIW0FnW5bSc/preview')" aria-label="Show Bed Ahead Guideline PDF">Bed Ahead Guideline</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1ONM_XdJmpJNPex778z9cgA2romDHDKwQ/preview')" aria-label="Show Disclosure to Law Enforcement PDF">Disclosure to Law Enforcement</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1u1V_5h6p740YnSG3sfbVNxhY7ZkR3KRf/preview')" aria-label="Show Pediatric SBI Screen PDF">Pediatric SBI Screen</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1wkEcFO6Xm2LWzDGmgQKUb60jB8yL2cFG/preview')" aria-label="Show Adult SBI Screen PDF">Adult SBI Screen</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1TFC-7H9piX2f8muOq41CPvsLbAsB7rxT/preview')" aria-label="Show First Responder PDF">First Responder</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1su5TBJvawL0TKvbQ3SpShFtXaTkDmG1i/preview')" aria-label="Show Foley Placement PDF">Foley Placement</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1U8JvjnhcNvB3xOXUKypuCYHw17EX7V1C/preview')" aria-label="Show Grief Intervention PDF">Grief Intervention</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1BOofUu7GUQA2ZPqTimvTV6ODF8hWd1mH/preview')" aria-label="Show Injury Prevention Ed PDF">Injury Prevention Ed</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1iG3B4DgAPBMD9nGZeXnGZe4W4JuVqeiG/preview')" aria-label="Show Intrahospital Transport PDF">Intrahospital Transport</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1MiJKIdFtACTLFmtMYA2lfpffnpQ0JqS1/preview')" aria-label="Show IV Access Trauma Pt PDF">IV Access Trauma Pt</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1zbwe_asPDJ_UihTabFMTxcVwx7DRtRfb/preview')" aria-label="Show Nursing Admission PDF">Nursing Admission</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1Fv1i1QcAEHdu9cDPlQt6hRs1MUbc4z7H/preview')" aria-label="Show Nutrition Support PDF">Nutrition Support</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1KXsv4p2R6eRManwoqYte3nNs3Ibi--qs/preview')" aria-label="Show Blood Specimens PDF">Blood Specimens</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/11hTs26swuHNMpM88hqVt1HGRgtVm9E8r/preview')" aria-label="Show New Trauma Surgeons PDF">New Trauma Surgeons</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1zsQKNhx8ND3qZywGgLdlBIaJV36z3fXA/preview')" aria-label="Show PTSD PDF">PTSD</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1iIjxvxyAD390XgXeemOXw81hx3KJqOnH/preview')" aria-label="Show Videotaping Policy PDF">Videotaping Policy</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1FIy3WcAaysa27RL-GkWaqwBLAsiS173j/preview')" aria-label="Show Revoke Trauma Privileges PDF">Revoke Trauma Privileges</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1CWvT_8JvO-KckKgsiDJgneLyk-d68CON/preview')" aria-label="Show Medication History PDF">Medication History</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1w7jQtGEmpJZAAhuUruEw7PkQp1SAXldX/preview')" aria-label="Show Anesthesia Dept PDF">Anesthesia Dept</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1GJxTRpBzLb2GcpGA00sMT9w5aG4MKK6j/preview')" aria-label="Show Case Management PDF">Case Management</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1TgV0-C1U9Lj6Lbkcpz-kPSAhxv6awymD/preview')" aria-label="Show Chaplain Role PDF">Chaplain Role</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1sZzAuH2H3SQKZIW-tEvd0xhbxaYLqmmr/preview')" aria-label="Show ED Family Liaison PDF">ED Family Liaison</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1qGDru0UlXwTFFfROgK80Vhhq0JxeY__D/preview')" aria-label="Show ED Trauma Nurse PDF">ED Trauma Nurse</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1kfqQ_GtjSdXEMWiFEhoEgfITjavaw-3F/preview')" aria-label="Show Emergency Physician PDF">Emergency Physician</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1geE-7cH1YiJqwehevD3hXo9EI7uiqAnK/preview')" aria-label="Show OR During Resus PDF">OR During Resus</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1dBEtMIoPFG67QM0-SgVOARwsXlvPRxfj/preview')" aria-label="Show PACU Role PDF">PACU Role</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1UZuDBrHxl199-sovbqmbDC562JYRk_ad/preview')" aria-label="Show Pediatrician Trauma PDF">Pediatrician Trauma</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1GGW5BJ5e1zVOCHSIlBYnG4j6QcoApT5Z/preview')" aria-label="Show Phlebotomist Role PDF">Phlebotomist Role</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1Lo5HAt53EXXCiva-QTooMg6YjgL6VP_9/preview')" aria-label="Show Physiatrist Role PDF">Physiatrist Role</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1i2WzJstxbmEnSbM6ROSJH32Fqgiqnj6c/preview')" aria-label="Show PSS Role PDF">PSS Role</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1T3yU1RWYivJ006KmBXnubcoqHwnnzZcl/preview')" aria-label="Show Pulmonary Services PDF">Pulmonary Services</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1Nqzm0-x7c2VwlztZued6mKvCGxiVcAYW/preview')" aria-label="Show Rehab Role PDF">Rehab Role</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1P_8FFxr_P_p95wIvBMWrmyDQ1UI4CMp5/preview')" aria-label="Show Substance Abuse Consult PDF">Substance Abuse Consult</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1E3VTHCxnw43pF64NoIy0gVU0vMr8dw4Q/preview')" aria-label="Show Transfusion Tech PDF">Transfusion Tech</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1Idcl_P_CbaDM6l_KGy5-lK6DXnBbP__8/preview')" aria-label="Show TSICU Nurse PDF">TSICU Nurse</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1VCTvqDUJxpeYSEZ7JQb6jbSS-lQTpKkZ/preview')" aria-label="Show Adult RSI PDF">Adult RSI</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1HSgLi0idav929YYgwkhRKlWYsOqjRskh/preview')" aria-label="Show Pediatric RSI PDF">Pediatric RSI</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/14LGOMR9zeRE7g_zDaX9vyXpah6JHiCs2/preview')" aria-label="Show Specialties Availability PDF">Specialties Availability</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1UpaUR8F1j48AVPZw8yHe8KZAfwzqv5Aj/preview')" aria-label="Show Medical Record Completion PDF">Medical Record Completion</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1EM1_60KpztOZbNZzaGMz1RNZ4aMvClY2/preview')" aria-label="Show Nomenclature Guideline PDF">Nomenclature Guideline</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1hV3fj6GcQ8Gz5l9X5ke2Xf3ftwJMDWrX/preview')" aria-label="Show PPE Guideline PDF">PPE Guideline</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1_vpzCD7U9UL9CyLpPUoAml1A5JqCyxaQ/preview')" aria-label="Show Attending Time Off PDF">Attending Time Off</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1L6Tpv1regf-3ZHXTHTLgtMSzeKTA7slS/preview')" aria-label="Show Nurse Course PDF">Nurse Course</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1FH1LraWW_6M6JLgYpkYzA5ohuQPmZi6t/preview')" aria-label="Show Resuscitation Assistance PDF">Resuscitation Assistance</button>
-        <button onclick="showPDF('https://drive.google.com/file/d/1m0o3RjmO8NjmY1CcFAVvEYBIEA-HmunT/preview')" aria-label="Show Data Request PDF">Data Request</button>
-        <button class="home-button" onclick="showSection('main-buttons')" aria-label="Back to Home">Home</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1M_kbE61vW5NxPWy8-_LXh1jXu5mRVrXz/preview'); vibrate();" aria-label="Show Annual Trauma Staffing PDF">Annual Trauma Staffing</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1fvvKOiOb1PP7aU6HKt1HL4JQou9FkRvl/preview'); vibrate();" aria-label="Show CPIC Attendance PDF">CPIC Attendance</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1dqYPuhG96T34u4WsV3SNQxaFMnJIl6Y3/preview'); vibrate();" aria-label="Show Multidiscipline PRPI PDF">Multidiscipline PRPI</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/18icxugCbfF6rwaV8D9oydHIW0FnW5bSc/preview'); vibrate();" aria-label="Show Bed Ahead Guideline PDF">Bed Ahead Guideline</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1ONM_XdJmpJNPex778z9cgA2romDHDKwQ/preview'); vibrate();" aria-label="Show Disclosure to Law Enforcement PDF">Disclosure to Law Enforcement</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1u1V_5h6p740YnSG3sfbVNxhY7ZkR3KRf/preview'); vibrate();" aria-label="Show Pediatric SBI Screen PDF">Pediatric SBI Screen</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1wkEcFO6Xm2LWzDGmgQKUb60jB8yL2cFG/preview'); vibrate();" aria-label="Show Adult SBI Screen PDF">Adult SBI Screen</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1TFC-7H9piX2f8muOq41CPvsLbAsB7rxT/preview'); vibrate();" aria-label="Show First Responder PDF">First Responder</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1su5TBJvawL0TKvbQ3SpShFtXaTkDmG1i/preview'); vibrate();" aria-label="Show Foley Placement PDF">Foley Placement</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1U8JvjnhcNvB3xOXUKypuCYHw17EX7V1C/preview'); vibrate();" aria-label="Show Grief Intervention PDF">Grief Intervention</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1BOofUu7GUQA2ZPqTimvTV6ODF8hWd1mH/preview'); vibrate();" aria-label="Show Injury Prevention Ed PDF">Injury Prevention Ed</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1iG3B4DgAPBMD9nGZeXnGZe4W4JuVqeiG/preview'); vibrate();" aria-label="Show Intrahospital Transport PDF">Intrahospital Transport</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1MiJKIdFtACTLFmtMYA2lfpffnpQ0JqS1/preview'); vibrate();" aria-label="Show IV Access Trauma Pt PDF">IV Access Trauma Pt</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1zbwe_asPDJ_UihTabFMTxcVwx7DRtRfb/preview'); vibrate();" aria-label="Show Nursing Admission PDF">Nursing Admission</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1Fv1i1QcAEHdu9cDPlQt6hRs1MUbc4z7H/preview'); vibrate();" aria-label="Show Nutrition Support PDF">Nutrition Support</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1KXsv4p2R6eRManwoqYte3nNs3Ibi--qs/preview'); vibrate();" aria-label="Show Blood Specimens PDF">Blood Specimens</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/11hTs26swuHNMpM88hqVt1HGRgtVm9E8r/preview'); vibrate();" aria-label="Show New Trauma Surgeons PDF">New Trauma Surgeons</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1zsQKNhx8ND3qZywGgLdlBIaJV36z3fXA/preview'); vibrate();" aria-label="Show PTSD PDF">PTSD</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1iIjxvxyAD390XgXeemOXw81hx3KJqOnH/preview'); vibrate();" aria-label="Show Videotaping Policy PDF">Videotaping Policy</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1FIy3WcAaysa27RL-GkWaqwBLAsiS173j/preview'); vibrate();" aria-label="Show Revoke Trauma Privileges PDF">Revoke Trauma Privileges</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1CWvT_8JvO-KckKgsiDJgneLyk-d68CON/preview'); vibrate();" aria-label="Show Medication History PDF">Medication History</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1w7jQtGEmpJZAAhuUruEw7PkQp1SAXldX/preview'); vibrate();" aria-label="Show Anesthesia Dept PDF">Anesthesia Dept</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1GJxTRpBzLb2GcpGA00sMT9w5aG4MKK6j/preview'); vibrate();" aria-label="Show Case Management PDF">Case Management</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1TgV0-C1U9Lj6Lbkcpz-kPSAhxv6awymD/preview'); vibrate();" aria-label="Show Chaplain Role PDF">Chaplain Role</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1sZzAuH2H3SQKZIW-tEvd0xhbxaYLqmmr/preview'); vibrate();" aria-label="Show ED Family Liaison PDF">ED Family Liaison</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1qGDru0UlXwTFFfROgK80Vhhq0JxeY__D/preview'); vibrate();" aria-label="Show ED Trauma Nurse PDF">ED Trauma Nurse</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1kfqQ_GtjSdXEMWiFEhoEgfITjavaw-3F/preview'); vibrate();" aria-label="Show Emergency Physician PDF">Emergency Physician</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1geE-7cH1YiJqwehevD3hXo9EI7uiqAnK/preview'); vibrate();" aria-label="Show OR During Resus PDF">OR During Resus</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1dBEtMIoPFG67QM0-SgVOARwsXlvPRxfj/preview'); vibrate();" aria-label="Show PACU Role PDF">PACU Role</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1UZuDBrHxl199-sovbqmbDC562JYRk_ad/preview'); vibrate();" aria-label="Show Pediatrician Trauma PDF">Pediatrician Trauma</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1GGW5BJ5e1zVOCHSIlBYnG4j6QcoApT5Z/preview'); vibrate();" aria-label="Show Phlebotomist Role PDF">Phlebotomist Role</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1Lo5HAt53EXXCiva-QTooMg6YjgL6VP_9/preview'); vibrate();" aria-label="Show Physiatrist Role PDF">Physiatrist Role</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1i2WzJstxbmEnSbM6ROSJH32Fqgiqnj6c/preview'); vibrate();" aria-label="Show PSS Role PDF">PSS Role</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1T3yU1RWYivJ006KmBXnubcoqHwnnzZcl/preview'); vibrate();" aria-label="Show Pulmonary Services PDF">Pulmonary Services</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1Nqzm0-x7c2VwlztZued6mKvCGxiVcAYW/preview'); vibrate();" aria-label="Show Rehab Role PDF">Rehab Role</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1P_8FFxr_P_p95wIvBMWrmyDQ1UI4CMp5/preview'); vibrate();" aria-label="Show Substance Abuse Consult PDF">Substance Abuse Consult</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1E3VTHCxnw43pF64NoIy0gVU0vMr8dw4Q/preview'); vibrate();" aria-label="Show Transfusion Tech PDF">Transfusion Tech</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1Idcl_P_CbaDM6l_KGy5-lK6DXnBbP__8/preview'); vibrate();" aria-label="Show TSICU Nurse PDF">TSICU Nurse</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1VCTvqDUJxpeYSEZ7JQb6jbSS-lQTpKkZ/preview'); vibrate();" aria-label="Show Adult RSI PDF">Adult RSI</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1HSgLi0idav929YYgwkhRKlWYsOqjRskh/preview'); vibrate();" aria-label="Show Pediatric RSI PDF">Pediatric RSI</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/14LGOMR9zeRE7g_zDaX9vyXpah6JHiCs2/preview'); vibrate();" aria-label="Show Specialties Availability PDF">Specialties Availability</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1UpaUR8F1j48AVPZw8yHe8KZAfwzqv5Aj/preview'); vibrate();" aria-label="Show Medical Record Completion PDF">Medical Record Completion</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1EM1_60KpztOZbNZzaGMz1RNZ4aMvClY2/preview'); vibrate();" aria-label="Show Nomenclature Guideline PDF">Nomenclature Guideline</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1hV3fj6GcQ8Gz5l9X5ke2Xf3ftwJMDWrX/preview'); vibrate();" aria-label="Show PPE Guideline PDF">PPE Guideline</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1_vpzCD7U9UL9CyLpPUoAml1A5JqCyxaQ/preview'); vibrate();" aria-label="Show Attending Time Off PDF">Attending Time Off</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1L6Tpv1regf-3ZHXTHTLgtMSzeKTA7slS/preview'); vibrate();" aria-label="Show Nurse Course PDF">Nurse Course</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1FH1LraWW_6M6JLgYpkYzA5ohuQPmZi6t/preview'); vibrate();" aria-label="Show Resuscitation Assistance PDF">Resuscitation Assistance</button>
+        <button onclick="showPDF('https://drive.google.com/file/d/1m0o3RjmO8NjmY1CcFAVvEYBIEA-HmunT/preview'); vibrate();" aria-label="Show Data Request PDF">Data Request</button>
+        <button class="home-button" onclick="showSection('main-buttons'); vibrate();" aria-label="Back to Home">Home</button>
     </div>
     <div id="handbook" class="section">
-        <button class="home-button" onclick="showSection('main-buttons')" aria-label="Back to Home">Home</button>
+        <button class="home-button" onclick="showSection('main-buttons'); vibrate();" aria-label="Back to Home">Home</button>
         <h2>Handbook</h2>
         <p>Here you will find the handbook in PDF format.</p>
         <!-- Add links to your PDF documents here -->
-        <button class="home-button" onclick="showSection('main-buttons')" aria-label="Back to Home">Home</button>
+        <button class="home-button" onclick="showSection('main-buttons'); vibrate();" aria-label="Back to Home">Home</button>
     </div>
 </div>
 <footer>
@@ -263,7 +263,11 @@
         iframe.src = '';
         document.getElementById('pdfViewer').style.display = 'none';
     }
+    function vibrate() {
+        if (navigator.vibrate) {
+            navigator.vibrate(100); // Vibrate for 100ms
+        }
+    }
 </script>
 </body>
 </html>
-
